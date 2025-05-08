@@ -13,8 +13,10 @@
 export default {
   name: 'HelloWorld',
 
-  data: () => ({
+  data: () => ({  
     
-  }),
+  })
+ 
 }
+
 </script>

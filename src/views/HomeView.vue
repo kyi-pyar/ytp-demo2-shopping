@@ -1,18 +1,25 @@
 <template>
-  <HelloWorld />
+  <ProductForSale/>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
 
 // Components
-import HelloWorld from '../components/HelloWorld.vue';
+
+import ProductForSale from './ProductForSale.vue';
 
 export default defineComponent({
   name: 'HomeView',
 
   components: {
-    HelloWorld,
+   ProductForSale
   },
+  data(){
+
+  },
+  methods:{
+   
+  }
 });
 </script>
